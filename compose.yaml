@@ -1,0 +1,13 @@
+services:
+  pgvector:
+    container_name: pgvector-rag
+    image: pgvector/pgvector:0.8.1-pg17-trixie
+    restart: always
+    environment:
+      POSTGRES_DB: rag
+      POSTGRES_USER: langchain
+      POSTGRES_PASSWORD: langchain
+      PGPORT: 6024
+    volumes:
+      - ./pgvector:/var/lib/postgresql/data
+    network_mode: host
