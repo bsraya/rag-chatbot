@@ -47,9 +47,9 @@ def generate_text_metadata(
         "tags": ["architecture", "NLP", "transformer"],
         "contextual_text": "In the Transformer model, positional encodings are vectors that have the same dimension as the input embeddings, which allows them to be summed together to provide the model with information about the sequence order of the tokens. These positional encodings can be based on either learned parameters or fixed mathematical functions.",
         "hypothetical_questions": [
-        "Why do positional encodings need to be the same size as embeddings?",
-        "What is the difference between learned and fixed positional encodings?",
-        "How does adding positional encodings help the Transformer model understand sequence order?"
+            "Why do positional encodings need to be the same size as embeddings?",
+            "What is the difference between learned and fixed positional encodings?",
+            "How does adding positional encodings help the Transformer model understand sequence order?"
         ]
     }
 
