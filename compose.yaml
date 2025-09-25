@@ -10,4 +10,5 @@ services:
       PGPORT: 6024
     volumes:
       - ./pgvector:/var/lib/postgresql/data
+      - ./arxiv-multimodal.sql:/arxiv-multimodal.sql
     network_mode: host
